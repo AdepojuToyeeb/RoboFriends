@@ -1,0 +1,16 @@
+/* @font-face {
+    font-family: 'SEGA LOGO FONT';
+    font-style: normal;
+    font-weight: normal;
+    src: url('http://www.fontsaddict.com/fontface/sega-logo-font.TTF');
+} */
+
+@import url(//db.onlinewebfonts.com/c/b593a614952261da06c53a02d1954f44?family=SEGA+LOGO+FONT);
+
+@font-face {font-family: "SEGA LOGO FONT"; src: url("//db.onlinewebfonts.com/t/b593a614952261da06c53a02d1954f44.eot"); src: url("//db.onlinewebfonts.com/t/b593a614952261da06c53a02d1954f44.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/b593a614952261da06c53a02d1954f44.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/b593a614952261da06c53a02d1954f44.woff") format("woff"), url("//db.onlinewebfonts.com/t/b593a614952261da06c53a02d1954f44.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/b593a614952261da06c53a02d1954f44.svg#SEGA LOGO FONT") format("svg"); }
+
+h1 {
+    font-family: 'SEGA LOGO FONT';
+    font-weight: 200;
+    color: #0ccac4;
+}
