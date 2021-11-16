@@ -26,24 +26,8 @@ class App extends Component {
         super();
         this.state = {
             robots: robots
-            // searchfield: ''
         }
     }
-
-
-    // For Fetching Api without redux
-    // componentDidMount(){
-    //     fetch('https://jsonplaceholder.typicode.com/users')
-    //         .then(response => response.json())
-    //         .then(users => this.setState({robots: users}))
-    // }
-
-
-
-    //Using States
-    // onSearchChange = (event) => {
-    //     this.setState({ searchfield: event.target.value})
-    // }
 
     render(){
         const { searchField, onSearchChange } = this.props;
